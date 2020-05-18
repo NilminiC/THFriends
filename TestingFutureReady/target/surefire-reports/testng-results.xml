@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="486" started-at="2020-05-18T02:39:35 IST" finished-at="2020-05-18T02:39:36 IST">
+  <suite name="Suite" duration-ms="1991" started-at="2020-05-18T13:36:11 IST" finished-at="2020-05-18T13:36:13 IST">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@887af79]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Validating User login" duration-ms="486" started-at="2020-05-18T02:39:35 IST" finished-at="2020-05-18T02:39:36 IST">
+    <test name="Validating User login" duration-ms="1991" started-at="2020-05-18T13:36:11 IST" finished-at="2020-05-18T13:36:13 IST">
       <class name="cucumberOptions.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberOptions.TestRunner@887af79]" name="setUpClass" is-config="true" duration-ms="441" started-at="2020-05-18T02:39:35 IST" finished-at="2020-05-18T02:39:36 IST">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberOptions.TestRunner@887af79]" name="setUpClass" is-config="true" duration-ms="1559" started-at="2020-05-18T13:36:12 IST" finished-at="2020-05-18T13:36:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@887af79]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2020-05-18T02:39:36 IST" finished-at="2020-05-18T02:39:36 IST">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@887af79]" name="tearDownClass" is-config="true" duration-ms="60" started-at="2020-05-18T13:36:13 IST" finished-at="2020-05-18T13:36:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

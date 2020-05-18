@@ -95,8 +95,7 @@ formatter.match({
   "location": "com.agentapp.steps.PetInsuranceSteps.navigate_to_Pet_Insurance_page()"
 });
 formatter.result({
-  "error_message": "java.lang.NullPointerException\r\n\tat com.agentapp.pageobjects.PetInsPageObjects.linkPetInsurance(PetInsPageObjects.java:25)\r\n\tat com.agentapp.steps.PetInsuranceSteps.navigate_to_Pet_Insurance_page(PetInsuranceSteps.java:28)\r\n\tat ✽.Navigate to Pet Insurance page(file:///C:/Users/Nilmini/Documents/eclipseWorkspace/TestingFutureReady/src/test/resources/features/PetInsurance.feature:6)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "Select the Falcon Insurer",
@@ -106,7 +105,8 @@ formatter.match({
   "location": "com.agentapp.steps.PetInsuranceSteps.select_the_Falcon_Insurer()"
 });
 formatter.result({
-  "status": "skipped"
+  "error_message": "java.lang.NullPointerException\r\n\tat com.agentapp.steps.PetInsuranceSteps.select_the_Falcon_Insurer(PetInsuranceSteps.java:37)\r\n\tat ✽.Select the Falcon Insurer(file:///C:/Users/Nilmini/git/THFriends/TestingFutureReady/src/test/resources/features/PetInsurance.feature:7)\r\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "Select the plan",

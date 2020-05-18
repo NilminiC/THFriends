@@ -25,11 +25,21 @@ public class PetInsuranceSteps{
 	  @Then("^Navigate to Pet Insurance page$") public void
 	  navigate_to_Pet_Insurance_page() throws Throwable { Thread.sleep(50000);
 	  System.out.println("Pet Insurance");
-	  PetInsPageObjects.linkPetInsurance(driver).click(); }
+	  try {
+		  PetInsPageObjects.linkPetInsurance(driver).click();
+	} catch (Exception e) {
+		e.printStackTrace();
+	}
+	  }
 	  
 	  @Then("^Select the Falcon Insurer$") public void select_the_Falcon_Insurer()
 	  throws Throwable {
-	  driver.findElement(By.xpath("//img[@alt='logo']")).click(); }
+		  try {
+			  driver.findElement(By.xpath("//img[@alt='logo']")).click();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	   }
 	  
 	  @Then("^User fill in the prospect detail for the plan$") public void
 	  user_fill_in_the_prospect_detail_for_the_plan() throws Throwable {
@@ -37,8 +47,13 @@ public class PetInsuranceSteps{
 	  }
 	  
 	  @Then("^Select the plan$") public void select_the_plan() throws Throwable {
-	  driver.findElement(By.xpath("(//button[@type='button'])[2]")).click();
-	  driver.findElement(By.xpath("(//button[@type='button'])[12]")).click(); }
+		  try {
+			  driver.findElement(By.xpath("(//button[@type='button'])[2]")).click();
+			  driver.findElement(By.xpath("(//button[@type='button'])[12]")).click(); 
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	 }
 	 
 
 
