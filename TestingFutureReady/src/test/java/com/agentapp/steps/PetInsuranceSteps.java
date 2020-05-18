@@ -23,11 +23,12 @@ public class PetInsuranceSteps{
 
 	
 	  @Then("^Navigate to Pet Insurance page$") public void
-	  navigate_to_Pet_Insurance_page() throws Throwable { Thread.sleep(50000);
+	  navigate_to_Pet_Insurance_page() throws Throwable { 
+	  Thread.sleep(50000);
 	  System.out.println("Pet Insurance");
 	  try {
-		  PetInsPageObjects.linkPetInsurance(driver).click();
-	} catch (Exception e) {
+		 PetInsPageObjects.getlinkPetInsurance().click();
+	} catch (NullPointerException e) {
 		e.printStackTrace();
 	}
 	  }

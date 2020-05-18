@@ -16,8 +16,9 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		plugin = {"pretty","html:target/cucumberHtmlReport"},
-		features = "src/test/resources/features/PetInsurance.feature"
-		,glue={"com/agentapp/steps"},strict = true
+		features = "src/test/resources/features/Login.feature"
+		,glue={"com/agentapp/steps"},
+		strict = true
 		)
 
 public class TestRunner extends AbstractTestNGCucumberTests{

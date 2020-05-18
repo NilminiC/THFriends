@@ -13,25 +13,25 @@ import org.openqa.selenium.WebElement;
  * 
  */
 public class PetInsPageObjects {
-	WebDriver driver;
-	private static WebElement element = null;
+	static WebDriver driver;
+	private static WebElement element;
+	public static By petLink=By.xpath("//a[contains(text(),'Pet')]");
 
 	public PetInsPageObjects(WebDriver Driver) {
 		this.driver = Driver;
 	}
 	
 	
-	public static WebElement linkPetInsurance(WebDriver driver) {
-		element = driver.findElement(By.xpath("//*[@id=\"referral-layout\"]/header/nav[2]/div/ul/li[6]"));
-		return element;
+	public static WebElement getlinkPetInsurance() {		
+		return driver.findElement(petLink);
 	}
 
-	public static WebElement clickTravelDesLink(WebDriver driver) {
+	public static WebElement clickPet1(WebDriver driver) {
 		element = driver.findElement(By.xpath("//input[@type='text']"));
 		return element;
 	}
 	
-	public static WebElement clickTravelDesCountry(WebDriver driver) {
+	public static WebElement ClickPet2(WebDriver driver) {
 		element = driver.findElement(By.xpath("/div[@id='travel-insurance']/section/div/div/div/div/div/div/div[2]/div/ul/li[35]/div"));
 		return element;
 	}
