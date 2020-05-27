@@ -60,6 +60,8 @@ public class LoginSteps extends BaseSetUp{
 		else {
 			System.out.println("Login Page not displayed");
 		}
+		driver.close();
+		driver=null;
 	}
 
 
