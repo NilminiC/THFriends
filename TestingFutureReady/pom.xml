@@ -36,10 +36,10 @@
 				<!-- 	<suiteXmlFiles>
 						<suiteXmlFile>testngCucumber.xml</suiteXmlFile>
 					</suiteXmlFiles> -->
-					<!-- <testSourceDirectory>src/test/java</testSourceDirectory>
+					<testSourceDirectory>src/test/java</testSourceDirectory>
 					<includes>
-						<exclude>**/*Runner.java</exclude>
-					</includes> -->
+						<include>**/RunTest.java</include>
+					</includes>
 				</configuration>
 			</plugin>
 
