@@ -17,10 +17,10 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(
 		plugin = {"pretty","html:target/cucumberHtmlReport"},
 		features = "src/test/resources/features/Login.feature"
-		,glue={"com/agentapp/steps"},
+		,glue={"com/agentapp/steps/LoginSteps.java"},
 		strict = true
 		)
 
-public class RunnerTest extends AbstractTestNGCucumberTests{
+public class TestRunner extends AbstractTestNGCucumberTests{
 
 }
