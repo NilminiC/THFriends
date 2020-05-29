@@ -6,9 +6,9 @@ com\agentapp\base\BaseSetUp.class
 com\example\tests\TravelInsurance.class
 com\agentapp\pageobjects\PetInsPageObjects.class
 com\agentapp\steps\HealthInsuranceSteps.class
+cucumberOptions\RunTest.class
 com\agentapp\pageobjects\HealthInsPageObjects.class
 com\agentapp\steps\PetInsuranceSteps.class
 com\agentapp\pageobjects\TravelInsPageObjects.class
 com\agentapp\steps\LifeInsuranceSteps.class
-cucumberOptions\TestRunner.class
 com\agentapp\pageobjects\LoginPageObjects.class
